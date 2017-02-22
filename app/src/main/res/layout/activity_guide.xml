@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.fz.liangcang.activity.GuideActivity">
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:is_auto_play="false"
+        app:indicator_height="0dp"
+        app:indicator_width="0dp"
+        app:image_scale_type="fit_xy"/>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/bt_to_main"
+        android:background="#22000000"
+        android:text="点击我进入主页面"
+        android:textSize="20sp"
+        android:textColor="#aa000000"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
